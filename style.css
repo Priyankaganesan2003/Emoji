@@ -1,0 +1,97 @@
+.face{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    border-color: black;
+    border-style: groove;
+    left: 5px;
+}
+.eye1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(122, 50, 50);
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left: 40px;
+} 
+.eye2{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left:100px;
+}
+.mouth{
+    background-color: red;
+    height: 40px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 80px;
+    left:-70px;
+}
+.tongue{
+    background-color: pink;
+    height: 25px;
+    width: 35px;
+    border-radius: 0 0 60px 60px;
+    position: absolute;
+    top:95px;
+    left: -52px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.face1{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    border-color: rgb(219, 65, 65);
+    border-style: dotted;
+    left: 10px;
+}
+.eyes1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(242, 6, 22);
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left: 40px;
+} 
+.eyes2{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(249, 6, 47);
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left:100px;
+}
+.mouth1{
+    background-color: rgb(255, 0, 123);
+    height: 40px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 80px;
+    left:-70px;
+}
+.tongue1{
+    background-color: rgb(218, 11, 97);
+    height: 25px;
+    width: 35px;
+    border-radius: 0 0 60px 60px;
+    position: absolute;
+    top:95px;
+    left: -52px;
+    z-index: 1;
+    overflow: hidden;
+}
